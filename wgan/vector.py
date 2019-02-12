@@ -135,7 +135,7 @@ class Vector(object):
             if not save:
                 img.show()
             else:
-                with open(save, 'wb') as f:
+                with open('Samples.png', 'wb') as f:
                     img.save(f, format='png')
 
     def show_z(self, z, y=None, shape=(), enum=True, border=True, res=32, save=False):
